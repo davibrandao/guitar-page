@@ -29,6 +29,7 @@ a {
   font-weight: bold;
   align-self: center;
   margin-right: 20%;
+  margin-left: -2%;
 }
 .header-welcome {
   display: flex;
@@ -40,7 +41,6 @@ a {
   margin-left: 50px;
 }
 .header-welcome button {
-  display: flex;
   align-self: flex-end;
   background-color: #3882f6;
   color: white;
@@ -55,7 +55,7 @@ a {
 
 .header-welcome p {
   font-size: 14px;
-  margin-top: -10%;
+  margin-top: -5%;
   color: #c1c2c4;
 }
 .header-welcome h1 {
@@ -65,10 +65,10 @@ a {
 }
 .information-section {
   background-color: white;
-}
-.information-section h1 {
   display: flex;
   justify-content: center;
+}
+.information-section h1 {
   background-color: white;
   font-size: 36px;
   font-weight: bold;
@@ -90,11 +90,14 @@ a {
   margin: 10px;
   margin-bottom: 200px;
   border-radius: 10px;
-  border: 3px solid black;
+  border: 3px solid #3882f6;
   box-sizing: border-box;
 }
 .square p {
-  margin-top: 160px;
+  margin-top: 130px;
+}
+.square img{
+  margin-bottom: -120px;
 }
 
 .testimonial-section {
@@ -109,8 +112,7 @@ a {
   padding-bottom: 50px;
 }
 .testimonial-section span {
-  display: flex;
-  justify-content: flex-end;
+  align-self: flex-end;
   font-size: 26px;
   font-weight: bold;
 }
@@ -130,7 +132,7 @@ a {
   margin: 0 auto; 
   padding: 0; 
   overflow: hidden;
-  height: auto; /* Defina a altura do flex-container como 'auto' ou um valor menor */
+  height: auto; 
 }
 
 .rectangle {
@@ -161,19 +163,18 @@ a {
   font-size: 14px;
   margin-right: 20px; 
   align-self: flex-end; 
-  margin-bottom: 50px;
   padding: 1%;
   padding-left: 5%;
   padding-right: 5%;
   border-radius: 7px;
-  margin-top: -60px;
+  margin-top: -55px;
   margin-right: 100px;
 }
 .flex-footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0px; /* Set margin to 0 to remove any unwanted space */
+  margin: 0px; 
 }
 .footer-section {
   margin-top: 0px;
